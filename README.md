@@ -62,5 +62,3 @@ Forecasts load when the page opens or you select Refresh. Requests go directly f
 Radar imagery is provided by [RainViewer](https://www.rainviewer.com/) for personal and educational use. The basemap uses [OpenStreetMap](https://www.openstreetmap.org/copyright) tiles. Keep the map attribution visible and follow the providers' usage policies. No CARTO key is needed.
 
 [Leaflet](https://leafletjs.com/) is distributed under the BSD 2-Clause license; its license is included in `vendor/LEAFLET-LICENSE.txt`.
-
-To update an existing GitHub Pages deployment, replace the application files and upload the entire `vendor` folder, preserving its directory structure. Keep your existing Pages branch and folder settings. The included Docker configuration also serves the radar files; it requires Docker to be installed and running.
