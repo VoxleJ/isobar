@@ -4,4 +4,7 @@ services:
       - ./index.html:/usr/share/nginx/html/index.html:ro
       - ./app.js:/usr/share/nginx/html/app.js:ro
       - ./style.css:/usr/share/nginx/html/style.css:ro
+      - ./weather.js:/usr/share/nginx/html/weather.js:ro
+      - ./weather.css:/usr/share/nginx/html/weather.css:ro
       - ./favicon.svg:/usr/share/nginx/html/favicon.svg:ro
+      - ./vendor:/usr/share/nginx/html/vendor:ro
