@@ -8,3 +8,9 @@ services:
       - ./weather.css:/usr/share/nginx/html/weather.css:ro
       - ./favicon.svg:/usr/share/nginx/html/favicon.svg:ro
       - ./vendor:/usr/share/nginx/html/vendor:ro
+      - ./trip.html:/usr/share/nginx/html/trip.html:ro
+      - ./trip.js:/usr/share/nginx/html/trip.js:ro
+      - ./trip-core.js:/usr/share/nginx/html/trip-core.js:ro
+      - ./trip-geocoding.js:/usr/share/nginx/html/trip-geocoding.js:ro
+      - ./trip.css:/usr/share/nginx/html/trip.css:ro
+      - ./data:/usr/share/nginx/html/data:ro
