@@ -74,6 +74,6 @@ Radar imagery is provided by [RainViewer](https://www.rainviewer.com/) for perso
 
 [Leaflet](https://leafletjs.com/) is distributed under the BSD 2-Clause license; its license is included in `vendor/LEAFLET-LICENSE.txt`.
 
-Address search uses [Photon](https://photon.komoot.io/) by komoot with OpenStreetMap data. Road-trip routing uses the public [FOSSGIS OSRM](https://routing.openstreetmap.de/) service. The road-trip basemap comes from [USGS The National Map](https://www.usgs.gov/programs/national-geospatial-program/the-national-map). These public services have usage limits and may be temporarily unavailable.
+Address search uses [Photon](https://photon.komoot.io/) by komoot with OpenStreetMap data. Road-trip routing uses the public [FOSSGIS OSRM](https://routing.openstreetmap.de/) service. These public services have usage limits and may be temporarily unavailable.
 
 Address search text is sent to Photon; selected coordinates are sent to the routing and weather providers. Trip settings are saved in this browser’s local storage. No account or backend is required.
