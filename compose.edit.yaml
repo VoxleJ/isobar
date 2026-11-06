@@ -14,3 +14,4 @@ services:
       - ./trip-geocoding.js:/usr/share/nginx/html/trip-geocoding.js:ro
       - ./trip.css:/usr/share/nginx/html/trip.css:ro
       - ./data:/usr/share/nginx/html/data:ro
+      - ./trip-extras.js:/usr/share/nginx/html/trip-extras.js:ro

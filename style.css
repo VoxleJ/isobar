@@ -8,3 +8,5 @@
 .day-card{min-width:0;max-width:100%;width:auto;overflow-wrap:anywhere}
 .lower aside .section-title{flex-wrap:wrap}
 @media(max-width:850px){.lower{grid-template-columns:minmax(0,1fr)}}
+
+input[type=search]:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--mint);outline-offset:4px}input,select{border-color:#647f90}.skip-link{position:absolute;top:-80px;left:15px;z-index:3000;background:#132431;padding:12px}.skip-link:focus{top:10px}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

@@ -1,6 +1,6 @@
 FROM nginxinc/nginx-unprivileged:stable-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY index.html app.js style.css weather.js weather.css favicon.svg trip.html trip.js trip-core.js trip-geocoding.js trip.css /usr/share/nginx/html/
+COPY index.html app.js style.css weather.js weather.css favicon.svg trip.html trip.js trip-core.js trip-extras.js trip-geocoding.js trip.css /usr/share/nginx/html/
 COPY vendor/ /usr/share/nginx/html/vendor/
 COPY data/ /usr/share/nginx/html/data/
 EXPOSE 8080
